@@ -1,8 +1,10 @@
-# CAP U-17 Futsal Analytics — 2025/2026 Season
+d# CAP U-17 Futsal Analytics — 2025/2026 Season
  
 An end-to-end analytics project built entirely from self-collected match data. Unlike my other portfolio projects, which use public datasets, this one, I started from scratch: I tracked offensive and defensive statistics for every player and goalkeeper across all 56 games of the 2025/2026 season while working as an analyst for Clube Atlético das Patameiras U-17, recording each match manually in Excel before modelling and visualizing it in Power BI. The result is a multi-page report covering a combined attack-vs-defense view, offensive, player, defensive and goalkeeper performance. With this analysis, I was able to give the coaching staff a full picture of team and player performance individually across the season.
  
-`[Screenshot: Offensive Vs. Defense page]`
+![Offensive Vs. Defense page](assets/offensive-vs-defensive-dashboard.png)
+
+[![View Dashboard on Power BI](https://app.powerbi.com/links/h9o1rbmFDT?ctid=a6c348d1-c407-43cb-b532-13fe5b3b952d&pbi_source=linkShare)
  
 ## Data Collection & Structure
  
@@ -14,27 +16,29 @@ The dataset was built entirely from scratch in Excel. I created two files, one f
 The unified data model was created to enable cross-analysis between offensive and defensive performance, where it was mainly used on the Offensive vs. Defense page.
  
 ## What the Report Enables
+
+![Offensive Vs. Defense page](assets/offensive-vs-defensive-dashboard.png)
+
+**Offensive Vs. Defense**: A combined, round-by-round view matching each game's offensive output against what was conceded, surfacing patterns like results driven by efficiency rather than shot volume, or losses caused by defensive breakdowns. Filterable by Team and Phase.
+ 
+![Offensive page](assets/offensive-dashboard.png)
  
 **Offensive**: Team-level shooting performance: total shots, shot distribution (on target / off target / blocked), conversion rate, and shot accuracy, tracked across the season. Filterable by Team and Phase.
  
-`[Screenshot: Offensive page]`
+![Players page](assets/players-dashboard.png)
  
 **Players**: Individual player breakdowns of the same offensive metrics, plus goals, assists, and G/A, allowing performance comparison and drill-down by player. Filterable by Team, Phase, and Player.
  
-`[Screenshot: Players page]`
+![Defense page](assets/defense-dashboard.png)
  
 **Defense**: Team-level defensive performance: shots conceded, save rate, defensive inefficiency rate, and shots-conceded distribution, tracked across the season. Filterable by Team and Phase.
  
-`[Screenshot: Defense page]`
+![Goalkeepers page](assets/goalkeepers-dashboard.png)
  
 **Goalkeepers**: Individual goalkeeper breakdowns of defensive metrics, plus throw and pass distribution quality, giving a fuller picture of a goalkeeper's contribution beyond shot-stopping alone. Filterable by Team, Phase, and Goalkeeper.
  
-`[Screenshot: Goalkeepers page]`
- 
-**Offensive Vs. Defense**: A combined, round-by-round view matching each game's offensive output against what was conceded, surfacing patterns like results driven by efficiency rather than shot volume, or losses caused by defensive breakdowns. Filterable by Team and Phase.
- 
-`[Screenshot: Offensive Vs. Defense page]`
- 
+![Glossary page](assets/glossary-dashboard.png)
+  
 **Glossary**: A full reference of every metric and competition phase used across the report, for anyone unfamiliar with the terminology or the club's season structure.
  
 ## Key Technical Decisions
@@ -49,3 +53,10 @@ The unified data model was created to enable cross-analysis between offensive an
 - **Power Query**: data transformation and table connections (TeamMatch)
 - **Power BI**: report building and visualization
 - **DAX**: calculated measures
+
+## Live Dashboard
+You can also view the dashboard directly on Power BI: [![View Dashboard on Power BI](https://app.powerbi.com/links/h9o1rbmFDT?ctid=a6c348d1-c407-43cb-b532-13fe5b3b952d&pbi_source=linkShare)
+
+## Author
+Fábio Tavares | 2026
+
