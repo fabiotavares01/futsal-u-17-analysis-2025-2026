@@ -4,7 +4,7 @@ An end-to-end analytics project built entirely from self-collected match data. U
  
 ![Offensive Vs. Defense page](assets/offensive-vs-defensive-dashboard.png)
 
-[![View Dashboard on Power BI](https://app.powerbi.com/links/h9o1rbmFDT?ctid=a6c348d1-c407-43cb-b532-13fe5b3b952d&pbi_source=linkShare)
+[![View Dashboard on Power BI](https://img.shields.io/badge/View%20Dashboard-Power%20BI-yellow)](https://app.powerbi.com/links/h9o1rbmFDT?ctid=a6c348d1-c407-43cb-b532-13fe5b3b952d&pbi_source=linkShare)
  
 ## Data Collection & Structure
  
@@ -55,7 +55,7 @@ The unified data model was created to enable cross-analysis between offensive an
 - **DAX**: calculated measures
 
 ## Live Dashboard
-You can also view the dashboard directly on Power BI: [![View Dashboard on Power BI](https://app.powerbi.com/links/h9o1rbmFDT?ctid=a6c348d1-c407-43cb-b532-13fe5b3b952d&pbi_source=linkShare)
+You can also view the dashboard directly on Power BI: [![View Dashboard on Power BI](https://img.shields.io/badge/View%20Dashboard-Power%20BI-yellow)](https://app.powerbi.com/links/h9o1rbmFDT?ctid=a6c348d1-c407-43cb-b532-13fe5b3b952d&pbi_source=linkShare)
 
 ## Author
 Fábio Tavares | 2026
