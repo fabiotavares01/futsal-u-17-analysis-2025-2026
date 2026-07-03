@@ -17,30 +17,30 @@ The unified data model was created to enable cross-analysis between offensive an
  
 ## What the Report Enables
 
-![Offensive Vs. Defense page](assets/offensive-vs-defensive-dashboard.png)
-
 **Offensive Vs. Defense**: A combined, round-by-round view matching each game's offensive output against what was conceded, surfacing patterns like results driven by efficiency rather than shot volume, or losses caused by defensive breakdowns. Filterable by Team and Phase.
- 
-![Offensive page](assets/offensive-dashboard.png)
+
+![Offensive Vs. Defense page](assets/offensive-vs-defensive-dashboard.png)
  
 **Offensive**: Team-level shooting performance: total shots, shot distribution (on target / off target / blocked), conversion rate, and shot accuracy, tracked across the season. Filterable by Team and Phase.
- 
-![Players page](assets/players-dashboard.png)
+
+![Offensive page](assets/offensive-dashboard.png)
  
 **Players**: Individual player breakdowns of the same offensive metrics, plus goals, assists, and G/A, allowing performance comparison and drill-down by player. Filterable by Team, Phase, and Player.
- 
-![Defense page](assets/defense-dashboard.png)
+
+![Players page](assets/players-dashboard.png)
  
 **Defense**: Team-level defensive performance: shots conceded, save rate, defensive inefficiency rate, and shots-conceded distribution, tracked across the season. Filterable by Team and Phase.
- 
-![Goalkeepers page](assets/goalkeepers-dashboard.png)
+
+![Defense page](assets/defense-dashboard.png)
  
 **Goalkeepers**: Individual goalkeeper breakdowns of defensive metrics, plus throw and pass distribution quality, giving a fuller picture of a goalkeeper's contribution beyond shot-stopping alone. Filterable by Team, Phase, and Goalkeeper.
- 
-![Glossary page](assets/glossary-dashboard.png)
+
+![Goalkeepers page](assets/goalkeepers-dashboard.png)
   
 **Glossary**: A full reference of every metric and competition phase used across the report, for anyone unfamiliar with the terminology or the club's season structure.
- 
+
+![Glossary page](assets/glossary-dashboard.png)
+
 ## Key Technical Decisions
  
 - **Layered shot categorization**: Shots are broken into On Target, Off Target, and Blocked, with Off Target and Blocked further rolling up into a combined "Shots Wide" total, allowing analysis at both a granular and summarized level without double-counting.
